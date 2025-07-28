@@ -10,51 +10,92 @@ There are several ways of editing your application.
 
 **Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/55dff3e4-293c-49ef-a668-d77339673d14) and start prompting.
+## Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Frontend**: React 18, TypeScript
+- **Styling**: Tailwind CSS, Custom CSS animations
+- **Build Tool**: Vite
+- **UI Components**: Shadcn/ui
+- **Icons**: Lucide React
+- **Deployment**: Ready for Netlify, Vercel, or GitHub Pages
 
-**Use your preferred IDE**
+## Quick Start
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Prerequisites
+- Node.js (v18 or higher)
+- npm or yarn
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Installation
 
-Follow these steps:
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/bharadwajGarugu/Bharadwaj-Portfolio.git
+   cd Bharadwaj-Portfolio
+   ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+3. **Start development server**
+   ```bash
+   npm run dev
+   ```
 
-# Step 3: Install the necessary dependencies.
-npm i
+4. **Open your browser**
+   ```
+   http://localhost:8080
+   ```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+### Build for Production
+
+```bash
+npm run build
+npm run preview
 ```
 
-**Edit a file directly in GitHub**
+## Project Structure
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
+Bharadwaj-Portfolio/
+├── public/
+│   ├── android-chrome-512x512.png    # Custom favicon
+│   └── Communication,Technology...svg  # Profile image
+├── src/
+│   ├── components/
+│   │   ├── Hero.tsx                   # Landing section
+│   │   ├── Projects.tsx               # Project showcase
+│   │   ├── Skills.tsx                 # Technical skills
+│   │   ├── Contact.tsx                # Contact section
+│   │   └── ui/                        # Reusable UI components
+│   ├── pages/
+│   │   └── Index.tsx                  # Main page layout
+│   ├── hooks/                         # Custom React hooks
+│   ├── lib/                           # Utility functions
+│   └── index.css                      # Global styles
+├── package.json
+└── README.md
+```
 
-**Use GitHub Codespaces**
+## Key Sections
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Hero Section
+- Professional introduction
+- Call-to-action buttons with smooth scrolling
+- Social media links
+- Animated profile image
 
-## What technologies are used for this project?
+### Featured Projects
+- **Professional Restaurant Landing Page**: React-based responsive website with Firebase integration
+- **AskMyFile - AI Document Analysis**: Python application using LangChain and Streamlit
+- **Anti-G - Gambling Addiction Recovery App**: React Native mobile application
 
-This project is built with:
-
-- Vite
+### Technical Skills
+- **Frontend & Mobile**: React, React Native, TypeScript, JavaScript
+- **Backend**: Java, Python, Spring Boot, REST APIs
+- **AI & Data**: Python, LangChain, Machine Learning, SQL
+- **Cloud & Database**: AWS, Firebase, Supabase
 - TypeScript
 - React
 - shadcn-ui
