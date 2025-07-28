@@ -1,16 +1,25 @@
-# Welcome to your Lovable project
+# Bharadwaj Portfolio 🚀
 
-## Project info
+> **AI Technology Enthusiast, Data Analyst, Web and Java Developer**
 
-**URL**: https://lovable.dev/projects/55dff3e4-293c-49ef-a668-d77339673d14
+A modern, responsive portfolio website showcasing my skills, projects, and professional experience in AI/ML, data analysis, and full-stack development.
 
-## How can I edit this code?
+![Portfolio Preview](https://img.shields.io/badge/Portfolio-Live-brightgreen)
+![React](https://img.shields.io/badge/React-18.x-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.x-blue)
 
-There are several ways of editing your application.
+## ✨ Features
 
-**Use Lovable**
+- **🎨 Modern Design**: Clean, professional UI with gradient animations and smooth transitions
+- **📱 Fully Responsive**: Optimized for all devices - desktop, tablet, and mobile
+- **🚀 Fast Performance**: Built with Vite for lightning-fast development and production builds
+- **🎯 Interactive Elements**: Smooth scrolling navigation, hover effects, and dynamic content
+- **📧 Contact Integration**: Multiple contact options including direct email and social profiles
+- **🌟 Project Showcase**: Featured projects with live demos and GitHub links
+- **💼 Professional Sections**: Skills, experience, and comprehensive project portfolio
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - **Frontend**: React 18, TypeScript
 - **Styling**: Tailwind CSS, Custom CSS animations
